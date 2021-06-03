@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import NavBar from '../components/NavBar';
+import Image from 'next/image';
 
 export default function Home() {
   return (
@@ -11,7 +12,11 @@ export default function Home() {
 
       <main>
         <NavBar />
-        <div>Hello, testing Navbar</div>
+        <Image
+        layout="fill"
+        src="/assets/temp/Industrial-1_5-2-hero.jpg"
+        alt="temp"
+      />
       </main>
 
       <footer>

@@ -7,7 +7,7 @@ import Button from 'react-bootstrap/Button';
 // TODO: navbar buttons should be spaced
 function NavBar() {
   return (
-    <Navbar bg="dark" variant="dark">
+    <Navbar scrolling="true" dark="true" expand="md" fixed="top">
     <Navbar.Brand href="#home">All Custom Sheet Metal</Navbar.Brand>
     <Nav className="mr-auto">
       <Nav.Link href="#features">Features</Nav.Link>
