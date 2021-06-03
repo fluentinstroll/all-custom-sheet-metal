@@ -1,3 +1,7 @@
+.headingText{
+  padding-top: 20vh;
+}
+
 .bgWrap {
     position: fixed;
     height: 100vh;
@@ -8,10 +12,11 @@
 
   .bgText {
     margin: 0;
-    font-size: 2rem;
+    font-size: 10rem;
     line-height: 3rem;
-    text-align: center;
-    padding-top: 40vh;
-    text-shadow: 1px 1px 1px #3c5c5e;
+    text-align: left;
+    padding-top: 10vh;
+    padding-left: 5vh;
+    text-shadow: 3px 3px 3px #000000;
     color: #ffffff;
   }
