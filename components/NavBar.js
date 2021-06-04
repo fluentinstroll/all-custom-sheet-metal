@@ -6,10 +6,12 @@ import styles from '../styles/NavBar.module.css';
 function NavBar() {
   return (
     <Navbar scrolling="true" dark="true" expand="md" fixed="top">
-    <Navbar.Brand href="#home" className={styles.brand}>All Custom Sheet Metal</Navbar.Brand>
+    <Navbar.Brand href="/" className={styles.brand}>All Custom Sheet Metal</Navbar.Brand>
     <Nav className="mr-auto">
-      <Nav.Link href="#features">Features</Nav.Link>
-      <Nav.Link href="#pricing">Pricing</Nav.Link>
+      <Nav.Link href="/about">About</Nav.Link>
+      <Nav.Link href="/projects">Projects</Nav.Link>
+      <Nav.Link href="/contact">Contact</Nav.Link>
+      <Nav.Link href="/why-us">Why us</Nav.Link>
     </Nav>
   </Navbar>
   );
