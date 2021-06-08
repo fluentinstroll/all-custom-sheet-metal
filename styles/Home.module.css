@@ -1,4 +1,11 @@
+
 .carouselCaption {
   position: absolute;
   top: 25%;
+}
+
+.carouselImage {
+  height: 950px;
+  width: 100%;
+  object-fit: cover;
 }

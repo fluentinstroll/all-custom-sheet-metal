@@ -15,11 +15,10 @@ export default function Home() {
       <main>
         <NavBar />
         <Carousel>
-  <Carousel.Item>
+  <Carousel.Item >
     <img
-      width="2000"
-      height="950"
-      src="/assets/temp/Industrial-1_5-2-hero.jpg"
+      className={styles.carouselImage}
+      src="/assets/homeCarousel_1.jpg"
       alt="First slide"
     />
     <Carousel.Caption className={styles.carouselCaption}>
@@ -29,9 +28,8 @@ export default function Home() {
   </Carousel.Item>
   <Carousel.Item>
     <img
-      width="2000"
-      height="950"
-      src="/assets/temp/pedro-lastra-Nyvq2juw4_o-unsplash.jpg"
+      className={styles.carouselImage}
+      src="/assets/homeCarousel_2.jpg"
       alt="Second slide"
     />
 
