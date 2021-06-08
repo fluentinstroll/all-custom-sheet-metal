@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import NavBar from '../components/NavBar';
 import Image from 'next/image';
+import Carousel from 'react-bootstrap/Carousel'
 import styles from '../styles/Home.module.css';
 
 export default function Home() {
@@ -13,21 +14,31 @@ export default function Home() {
 
       <main>
         <NavBar />
-        <div className={styles.bgWrap}>
-        <Image
-        layout="fill"
-        src="/assets/temp/Industrial-1_5-2-hero.jpg"
-        alt="temp"
-      />
-      </div>
-      <div className={styles.headingText}>
-      <p className={styles.bgText}>
-        All Custom
-        </p>
-        <p className={styles.bgText}>
-        Sheet Metal
-      </p>
-      </div>
+        <Carousel>
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src="/assets/temp/Industrial-1_5-2-hero.jpg"
+      alt="First slide"
+    />
+    <Carousel.Caption>
+      <h3>First slide label</h3>
+      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+    </Carousel.Caption>
+  </Carousel.Item>
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src="/assets/temp/pedro-lastra-Nyvq2juw4_o-unsplash.jpg"
+      alt="Second slide"
+    />
+
+    <Carousel.Caption>
+      <h3>Second slide label</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </Carousel.Caption>
+  </Carousel.Item>
+</Carousel>
       </main>
 
       <footer>
