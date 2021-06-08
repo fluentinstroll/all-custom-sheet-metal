@@ -1,6 +1,6 @@
 const footerStyle = {
     width: "100%",
-    position: "absolute",
+    position: "static",
     bottom: "0px",
     background: "blue"
     };

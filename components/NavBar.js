@@ -6,7 +6,7 @@ import styles from '../styles/NavBar.module.css';
 function NavBar() {
   return (
     <Navbar scrolling="true" dark="true" expand="md" fixed="top">
-    <Navbar.Brand href="/" className={styles.brand}>All Custom Sheet Metal</Navbar.Brand>
+    <Navbar.Brand href="/" className={styles.navBarText}>All Custom Sheet Metal</Navbar.Brand>
     <Nav className="mr-auto">
       <Nav.Link href="/about">About</Nav.Link>
       <Nav.Link href="/projects">Projects</Nav.Link>

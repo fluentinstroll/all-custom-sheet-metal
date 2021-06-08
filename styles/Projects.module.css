@@ -1,9 +1,28 @@
+.projectsHeaderImg {
+  height: 750px;
+  width: 100%;
+  object-fit: cover;
+}
+
 .projectsHeader {
-    padding-top: 60px;
-    padding-left: 20px;   
-   }
-   
-   .projectsInfo {
-       padding-top: 10px;
-       padding-left: 20px;   
-      }
+  padding-top: 60px;
+  padding-left: 40px;
+}
+
+.projectsInfo {
+  padding-top: 10px;
+  padding-left: 40px;
+}
+
+.projectsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.projectBox {
+  background-color: #f1f1f1;
+  margin: 20px;
+  padding: 20px;
+}
