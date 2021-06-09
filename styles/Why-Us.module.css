@@ -1,3 +1,9 @@
+.whyUsHeaderImg {
+    height: 750px;
+    width: 100%;
+    object-fit: cover;
+  }
+
 .whyUsHeader {
     padding-top: 60px;
     padding-left: 20px;   
