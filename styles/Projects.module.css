@@ -16,13 +16,24 @@
 
 .projectsContainer {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
   flex-wrap: wrap;
 }
 
 .projectBox {
-  background-color: #f1f1f1;
+  background-color: #6E8894;
+  width: 29%;
   margin: 20px;
-  padding: 20px;
+  padding: 10px;
+}
+
+.projectText {
+  background: #6E8894;
+}
+
+.projectBox2 {
+  background-color: #153243;
+  width: 29%;
+  margin: 20px;
+  padding: 10px;
 }
