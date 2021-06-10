@@ -23,7 +23,7 @@ export default function Home() {
               <Carousel.Caption className={styles.carouselCaption}>
                 <h1>All Custom Sheet Metal</h1>
                 <p>
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
+                  Here for all your custom sheet metal needs
                 </p>
               </Carousel.Caption>
             </Carousel.Item>
@@ -35,15 +35,16 @@ export default function Home() {
               />
 
               <Carousel.Caption>
-                <h3>Second slide label</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <h1>Quality you can see</h1>
+                <p>Perfectly crafted and fine tuned to your needs</p>
               </Carousel.Caption>
             </Carousel.Item>
           </Carousel>
 
           <p className={styles.homeInfo}>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
+          <h1><strong>For a service you can trust</strong></h1>
+<h4>Count on us to bring the capacity and agility for any job, big or small,
+   Our expert team is committed to the highest service standards. And when challenges come up, we find solutions, no exceptions.</h4></p>
         </Layout>
       </main>
     </div>
