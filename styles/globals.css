@@ -15,7 +15,7 @@ a {
   box-sizing: border-box;
 }
 
-.h1 {
+h1 {
   padding: 60px;
   text-align: left;
   background: #153243;
@@ -23,7 +23,7 @@ a {
   font-size: 40px;
 }
 
-.h4 {
+h4 {
   padding: 60px;
   text-align: left;
   background: #153243;
