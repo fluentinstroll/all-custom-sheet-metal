@@ -4,7 +4,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
 const Footer = () => (
-  <div class="botFooter" style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gridGap: 720 }}>
+  <div className={styles.footerStyle} style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gridGap: 720 }}>
   <div><h5>Address land Contact Info</h5></div>
   <div><h5>Company Name and Logo</h5></div>
   <div> <SocialIcon url="https://www.linkedin.com/" network="linkedin" bgColor="black" /> 

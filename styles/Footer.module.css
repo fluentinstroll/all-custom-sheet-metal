@@ -2,9 +2,11 @@
     
         width: 100%;
         position: static;
-        bottom: 0px;
+        
         background: #21D19F;
-        padding: 20px;
+        /*padding: 20px;
+        bottom: 0px;
+        */
         justify-content: center;      
          
 }
@@ -13,7 +15,4 @@
     max-width: 70px;
 }
 
-.botFooter {
-    background-color: #21D19F; 
-}
 
