@@ -21,7 +21,7 @@ export default function Home() {
                 alt="First slide"
               />
               <Carousel.Caption className={styles.carouselCaption}>
-                <h1>All Custom Sheet Metal</h1>
+                <h2>All Custom Sheet Metal</h2>
                 <p>
                   Here for all your custom sheet metal needs
                 </p>
@@ -35,16 +35,18 @@ export default function Home() {
               />
 
               <Carousel.Caption>
-                <h1>Quality you can see</h1>
+                <h2>Quality you can see</h2>
                 <p>Perfectly crafted and fine tuned to your needs</p>
               </Carousel.Caption>
             </Carousel.Item>
           </Carousel>
 
-          <p className={styles.homeInfo}>
-          <h1><strong>For a service you can trust</strong></h1>
-<h4>Count on us to bring the capacity and agility for any job, big or small,
-   Our expert team is committed to the highest service standards. And when challenges come up, we find solutions, no exceptions.</h4></p>
+          <h1 className={styles.homeHeader}>
+            For a service you can trust</h1>
+
+  <p className={styles.homeInfo}>Count on us to bring the capacity and agility for any job, big or small,
+  Our expert team is committed to the highest standards. And when challenges come up, we find solutions, simple as that.</p>
+   
         </Layout>
       </main>
     </div>

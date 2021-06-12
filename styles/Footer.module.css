@@ -5,9 +5,11 @@
         bottom: 0px;
         background: #21D19F;
         padding: 20px;
-        justify-content: center;       
+        justify-content: center;      
+         
 }
 
 .footerCol {
     max-width: 70px;
 }
+

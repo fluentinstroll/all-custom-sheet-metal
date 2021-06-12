@@ -4,21 +4,25 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
 const Footer = () => (
-  <div className="Footer" className={styles.footerStyle}>
-    <p>Address land Contact Info</p>
-    <p>Company Name and Logo</p>
-    <Row>
-      <Col className={styles.footerCol}>
-        <SocialIcon url="#" network="linkedin" bgColor="black" />
-      </Col>
-      <Col className={styles.footerCol}>
-        <SocialIcon url="#" network="instagram" bgColor="black" />
-      </Col>
-      <Col className={styles.footerCol}>
-        <SocialIcon url="#" network="facebook" bgColor="black" />
-      </Col>
-    </Row>
-  </div>
+  <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gridGap: 720 }}>
+  <div><h5>Address land Contact Info</h5></div>
+  <div><h5>Company Name and Logo</h5></div>
+  <div> <SocialIcon url="https://www.linkedin.com/" network="linkedin" bgColor="black" /> 
+        <SocialIcon url="https://www.instagram.com/?hl=en" network="instagram" bgColor="black" /> 
+        <SocialIcon url="https://www.facebook.com/" network="facebook" bgColor="black" /> </div>
+</div>
 );
 
 export default Footer;
+/*
+   <Col className={styles.footerCol}></Col>
+
+   <Col className={styles.footerCol}></Col>
+
+   
+      <Col className={styles.footerCol}>
+    
+      </Col>
+   
+  </div>
+  */
