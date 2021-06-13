@@ -1,7 +1,9 @@
 import Layout from "../components/Layout";
 import styles from "../styles/About.module.css";
 import Image from "react-bootstrap/Image";
-
+import Container from "react-bootstrap/Container"
+import Row from "react-bootstrap/Row"
+import Col from "react-bootstrap/Col"
 export default function About() {
     return(
         <Layout>
@@ -11,8 +13,31 @@ export default function About() {
                     About
                 </h1>
                 <p className={styles.aboutInfo}>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                <h3>What we do</h3>
+                All Custom Sheet Metal, it is in the name for a reason. We are here for you when it comes to any sheet metal work you can turn to us for great results.
                 </p>
+            </div>
+            <div className={styles.aboutInfo}>
+                <h3>Our Services</h3>
+        
+            <Container fluid>
+             <Row>
+                <Col><h3>Design and implent</h3>
+                <p>Our team can assist when it comes to creating a design and figuring out the needs for your project. All projects are different our team specializes in realized the projects needs and adjusting accordingly.</p></Col>
+             </Row>
+             <Row>
+             <Col><h3>Creating your needs</h3>
+                <p>We understand what it takes to create quality. Our team wants to satisfy your needs and making sure quality and durability are up to your standards.</p></Col>
+             </Row>
+             <Row>
+             <Col><h3>Experience</h3>
+                <p>With several years of experience we know how to deal with any potential concern. No fuse for you let us handle the issues</p></Col>
+             </Row>
+             <Row>
+             <Col><h3>Accommodation</h3>
+                <p>We have worked with over hundreds of different designs. Got a new project in mind contact us and lets get it sorted.</p></Col>
+             </Row>
+            </Container>
             </div>
         </Layout>
     )
