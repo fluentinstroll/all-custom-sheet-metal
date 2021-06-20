@@ -22,6 +22,9 @@ export default function Projects() {
                     
                 </h2>
             </div>
+            <div className={styles.extra}>
+
+</div>
         </Layout>
     )
 }

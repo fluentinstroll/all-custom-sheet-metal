@@ -32,3 +32,15 @@
   background: #6E8894;
   padding: 15px;
 }
+
+.projectImage {
+  width: 530px;
+  border-radius: 20px;
+  height: 400px;
+  object-fit: cover;
+
+}
+
+.extra {
+  padding-bottom: 40px;
+}

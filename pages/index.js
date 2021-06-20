@@ -60,7 +60,7 @@ export default function Home() {
             </div>
             <Image src="/assets/homePage_1.jpg" className={styles.homeImage} />
           </div>
-          <h1 className={styles.homeHeader}>Something about contact us</h1>
+          <h1 className={styles.homeHeader}>Want an opinion? Contact us today</h1>
           <div className={styles.contactSection}>
             <div className={styles.contactSectionPictures}>
               <Image src="/assets/homeContact_1.jpeg" className={styles.contactImage}/>

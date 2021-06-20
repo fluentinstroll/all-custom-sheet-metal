@@ -1,14 +1,11 @@
 .footerStyle {
     
-        width: 100%;
-        position: static;
-        
-        background: #21D19F;
-        /*padding: 20px;
-        bottom: 0px;
-        */
+        width: 107%;
+        position: fixed;
+        bottom: 0;
+        background: #13bd8d;
         justify-content: center;      
-         
+       
 }
 
 .footerCol {
