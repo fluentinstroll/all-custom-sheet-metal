@@ -32,12 +32,6 @@
   font-size: 24px;
 }
 
-.projectsButton {
-  margin-left: 20px;
-  padding: 10px;
-  background: #153243;
-}
-
 .contactSectionPictures {
   display: flex;
   justify-content: space-between;
@@ -56,10 +50,10 @@
   
 }
 
-.contactButton {
+.frontpageButton {
   margin-left: 20px;
   margin-bottom: 100px;
   padding: 10px;
-  background: #153243;
-  
+  background: #13bd8d;
+  border-color: #13bd8d;
 }

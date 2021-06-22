@@ -36,7 +36,7 @@ export default function Home() {
               <Carousel.Caption className={styles.carouselCaption}>
                 <h2>Quality you can see</h2>
                 <p>Perfectly crafted and fine tuned to your needs</p>
-                <Button href="/about">Learn More</Button>
+                <Button href="/about" className={styles.frontpageButton}>Learn More</Button>
               </Carousel.Caption>
             </Carousel.Item>
           </Carousel>
@@ -48,6 +48,7 @@ export default function Home() {
             small. Our expert team is committed to the highest standards and
             when challenges come up, we find solutions. Simple as that.
           </p>
+          <Button href="/why-us" className={styles.frontpageButton}>Learn More</Button>
           <h1 className={styles.homeHeader}>Satisfaction guaranteed</h1>
           <div className={styles.projectsSection}>
             <div>
@@ -56,7 +57,7 @@ export default function Home() {
                 extremely satisfied clients. Take a look at our portfolio of
                 work.
               </p>
-              <Button href="/projects" className={styles.projectsButton}>Our projects</Button>
+              <Button href="/projects" className={styles.frontpageButton}>Our projects</Button>
             </div>
             <Image src="/assets/homePage_1.jpg" className={styles.homeImage} />
           </div>
@@ -71,7 +72,7 @@ export default function Home() {
             <p className={styles.contactInfo}>
               Contact us through email or phone to get started with our services.
             </p>
-            <Button href="/contact" className={styles.contactButton}>Contact info</Button>
+            <Button href="/contact" className={styles.frontpageButton}>Contact info</Button>
           </div>
         </Layout>
       </main>
