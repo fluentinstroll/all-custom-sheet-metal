@@ -14,13 +14,16 @@ export default function About() {
         />
         <h1 className={styles.aboutHeader}>About</h1>
         <div className={styles.aboutContainer}>
+        {/*}
         <h3 style={{padding: "15px"}}>What we do</h3>
         <p className={styles.aboutInfo}>
           All Custom Sheet Metal, it is in the name for a reason. We are here
           for you when it comes to any sheet metal work you can turn to us for
           great results.
         </p>
-      <h3 style={{padding: "15px"}}>Our Services</h3>
+  */}
+      <h3 className={styles.ourServices}>Our Services</h3>
+      <hr></hr>
       <div className={styles.aboutInfo}>
         <Container fluid>
           <Row className={styles.row1}>

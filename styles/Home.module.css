@@ -23,7 +23,7 @@
 
 .projectsSection {
   display: flex;
-  padding: 30px;
+  padding: 38px;
 }
 
 .projectsInfo {
@@ -37,10 +37,10 @@
   justify-content: space-between;
 }
 .contactImage {
-  width: 400px;
-  height: 400px;
+  width: 500px;
+  height: 500px;
   object-fit: cover;
-  padding: 30px;
+  padding: 60px;
 }
 
 .contactInfo {
@@ -54,11 +54,18 @@
   margin-left: 20px;
   margin-bottom: 100px;
   padding: 10px;
-  background: #13bd8d;
+  background: #153243;
+  border-color: #153243;
+}
+
+.frontpageButton:hover {
+  background-color: #13bd8d;
   border-color: #13bd8d;
+  
 }
 
 .frontpageTextAlign {
-  margin-left: 15%;
-  margin-right: 15%;
+  margin-left: 2%;
+  margin-right: 2%;
 }
+

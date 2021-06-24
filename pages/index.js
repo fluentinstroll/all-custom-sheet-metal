@@ -57,7 +57,7 @@ export default function Home() {
             <h1 className={styles.homeHeader}>Satisfaction guaranteed</h1>
           
           <div className={styles.projectsSection}>
-            <div>
+            <div >
               <p className={styles.projectsInfo}>
                 Over the years, we have developed multiple projects for all
                 extremely satisfied clients. Take a look at our portfolio of
@@ -86,10 +86,12 @@ export default function Home() {
                 src="/assets/homeContact_3.jpg"
                 className={styles.contactImage}
               />
+             
               <Image
                 src="/assets/homeContact_4.jpeg"
                 className={styles.contactImage}
               />
+              
             </div>
             <div className={styles.frontpageTextAlign}>
               <p className={styles.contactInfo}>
