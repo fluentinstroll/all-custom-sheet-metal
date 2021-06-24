@@ -30,7 +30,7 @@ export default function Contact() {
                     <input
                       type='text'
                       name='name'
-                      {...register({
+                      {...register("name", {
                         required: { value: true, message: 'Please enter your name' },
                         maxLength: {
                           value: 30,
@@ -46,7 +46,7 @@ export default function Contact() {
                     <input
                       type='email'
                       name='email'
-                      {...register({
+                      {...register("email", {
                         required: true,
                         pattern: /^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/
                       })}
@@ -64,7 +64,7 @@ export default function Contact() {
                     <input
                       type='text'
                       name='subject'
-                      {...register({
+                      {...register("subject",{
                         required: { value: true, message: 'Please enter a subject' },
                         maxLength: {
                           value: 75,
@@ -85,7 +85,7 @@ export default function Contact() {
                     <textarea
                       rows={3}
                       name='message'
-                      {...register({
+                      {...register("message",{
                         required: true
                       })}
                       className='form-control formInput'
