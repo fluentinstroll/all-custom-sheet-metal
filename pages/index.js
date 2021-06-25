@@ -99,7 +99,7 @@ export default function Home() {
                 services.
               </p>
               <Button href="/contact" className={styles.frontpageButton}>
-                Contact info
+                Contact
               </Button>
             </div>
           </div>
