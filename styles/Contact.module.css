@@ -3,7 +3,17 @@
  padding-left: 20px;   
 }
 
-.contactInfo {
-    padding-top: 10px;
-    padding-left: 20px;   
-   }
+   .inputGroup {
+    height: 50%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+  }
+
+  .inputLabel {
+    text-align: left;
+  }
+  .inputField {
+    height: 30px;
+  }
