@@ -61,3 +61,11 @@ h6 {
   font-size: 20px;
   color: black;
 }
+
+textarea {
+  resize: none;
+  border: 1px solid #153243; 
+  overflow: auto;
+  width: 600px;
+	height: 600px;
+}

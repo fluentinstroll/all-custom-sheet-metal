@@ -39,7 +39,7 @@ export default function Contact() {
     <Layout>
       <div className={styles.contactHeader}>
         <form>
-          <formGroup className={styles.inputGroup}>
+          <formGroup className={styles.inputGroupName}>
             <label htmlFor="name">Name</label>
             <input
               type="text"
@@ -50,7 +50,7 @@ export default function Contact() {
               className={styles.inputField}
             />
           </formGroup>
-          <formGroup className={styles.inputGroup}>
+          <formGroup className={styles.inputGroupEmail}>
             <label htmlFor="email">Email</label>
             <input
               type="email"
@@ -61,10 +61,11 @@ export default function Contact() {
               className={styles.inputField}
             />
           </formGroup>
-          <formGroup className={styles.inputGroup}>
+          <formGroup className={styles.inputGroupMessage}>
             <label htmlFor="message">Message</label>
-            <input
+            <textarea
               type="text"
+              
               onChange={(e) => {
                 setMessage(e.target.value);
               }}

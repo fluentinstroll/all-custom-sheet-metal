@@ -1,7 +1,7 @@
 .footerStyle {
     
         width: 107%;
-        position: fixed;
+        /* position: fixed; */
         bottom: 0;
         background: #13bd8d;
         justify-content: center;      

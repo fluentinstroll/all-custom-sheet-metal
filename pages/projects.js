@@ -34,11 +34,11 @@ export default function Projects() {
         </div>
         <div className={styles.projectBox}>
           <h1 className={styles.projectText}>Project 5</h1>
-          <Image src="/assets/pro1.jpg" className={styles.projectImage}/>
+          <Image src="/assets/pro5.jpg" className={styles.projectImage}/>
         </div>
         <div className={styles.projectBox}>
           <h1 className={styles.projectText}>Project 6</h1>
-          <Image src="/assets/pro2.jpg" className={styles.projectImage}/>
+          <Image src="/assets/pro6.jpg" className={styles.projectImage}/>
         </div>
       </div>
       <div className={styles.extra}>
