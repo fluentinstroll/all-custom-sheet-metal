@@ -12,35 +12,38 @@ export default function Projects() {
       <div>
         <h1 className={styles.projectsHeader}>Projects</h1>
       </div>
+      <h3 className={styles.ourProjects}>Take a look at some of our previous work</h3>
+      <hr></hr>
       <div className={styles.projectsContainer}>
-        
+      
       <div className={styles.projectBox}>
-          <h1 className={styles.projectText}>Project 1</h1>
+         <h1 className={styles.projectText}>Like what you see</h1>
           <Image src="/assets/pro1.jpg" className={styles.projectImage}/> 
         </div>
         <div className={styles.projectBox}>
-          <h1 className={styles.projectText}>Project 2</h1>
+          <h1 className={styles.projectText}>Contact us today</h1>
           <Image src="/assets/pro2.jpg" className={styles.projectImage}/> 
         </div>
        
         <div className={styles.projectBox}>
-          <h1 className={styles.projectText}>Project 3</h1>
+          <h1 className={styles.projectText}>Let us get it done</h1>
        <Image src="/assets/pro3.jpg" className={styles.projectImage}/>
         </div>
         
         <div className={styles.projectBox}>
-          <h1 className={styles.projectText}>Project 4</h1>
+          <h1 className={styles.projectText}></h1>
           <Image src="/assets/pro4.jpg" className={styles.projectImage}/>
         </div>
         <div className={styles.projectBox}>
-          <h1 className={styles.projectText}>Project 5</h1>
+          <h1 className={styles.projectText}></h1>
           <Image src="/assets/pro5.jpg" className={styles.projectImage}/>
         </div>
         <div className={styles.projectBox}>
-          <h1 className={styles.projectText}>Project 6</h1>
+          <h1 className={styles.projectText}></h1>
           <Image src="/assets/pro6.jpg" className={styles.projectImage}/>
         </div>
       </div>
+      <hr></hr>
       <div className={styles.extra}>
 
 </div>

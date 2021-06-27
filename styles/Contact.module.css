@@ -1,6 +1,8 @@
 .contactHeader {
  padding-top: 60px;
  padding-left: 20px;   
+ margin-left: 33%;
+  margin-right: 33%;
 }
 
    .inputGroupName {
@@ -19,6 +21,11 @@
     margin: 10px 0;
   }
 
+  .columnContact {
+    float: left;
+    width: 33.33%;
+  }
+
   .inputGroupMessage {
     height: 50%;
     width: 50%;
@@ -28,9 +35,26 @@
     
   }
 
+  .col1 {
+    
+  }
+  .col2 {
+    
+  }
+  .col3 {
+    
+  }
+
+
   .inputLabel {
     text-align: left;
   }
   .inputField {
     height: 30px;
+  }
+  .extra {
+    padding-bottom: 100px;
+  }
+  .extra2 {
+    padding-bottom: 300px;
   }

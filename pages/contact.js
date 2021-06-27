@@ -1,6 +1,10 @@
 import Layout from '../components/Layout';
 import styles from '../styles/Contact.module.css';
 import { useState } from 'react';
+import Image from 'react-bootstrap/Image';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 export default function Contact() {
   const [name, setName] = useState('');
@@ -37,6 +41,39 @@ export default function Contact() {
 
   return (
     <Layout>
+ <Container fluid>
+ <div className={styles.extra}></div>
+ <Row className={styles.row1}>
+            <Col className={styles.col1}>
+              <h3>Area of Service</h3>
+              <p>
+               We offer our services accros the GTA. Reach out to us today
+              </p>
+            </Col>
+            
+            <Col className={styles.col2}>
+              <h3>Contact Information</h3>
+              <p>
+                Email: sales@allcustomsheetmetal.com
+              </p>
+              <p>
+                Phone: 289 231 9178 
+              </p>
+            </Col>
+           
+            <Col className={styles.col3}>
+              <h3>Send us an Email</h3>
+              <p>
+                Fill out the form below to send us an email
+              </p>
+              <p>
+              Enter your email, name and a brief description of the inquiry or question. We will get back to you as soon as possible.  
+              </p>
+            </Col>
+          </Row>
+          <hr></hr>
+
+</Container>
       <div className={styles.contactHeader}>
         <form>
           <formGroup className={styles.inputGroupName}>
@@ -81,6 +118,8 @@ export default function Contact() {
           />
         </form>
       </div>
+      <div className={styles.extra2}></div>
     </Layout>
+    
   );
 }
