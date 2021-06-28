@@ -1,15 +1,12 @@
 .footerStyle {
-    
-        width: 100%;
-        /* position: fixed; */
-        bottom: 0;
-        background: #13bd8d;
-        justify-content: center;      
-       
+  width: 100%;
+  /* position: fixed; */
+  bottom: 0;
+  background: #13bd8d;
+  justify-content: center;
+  padding: 10px;
 }
 
 .footerCol {
-    max-width: 70px;
+  max-width: 70px;
 }
-
-
