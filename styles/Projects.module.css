@@ -21,7 +21,7 @@
 }
 
 .projectBox {
-  background-color: #6E8894;
+  background-color: #6e8894;
   border-radius: 20px;
   width: 29%;
   margin: 20px;
@@ -29,7 +29,7 @@
 }
 
 .projectText {
-  background: #6E8894;
+  background: #6e8894;
   padding: 15px;
 }
 
@@ -38,16 +38,13 @@
   border-radius: 20px;
   height: 400px;
   object-fit: cover;
-
 }
 
 .ourProjects {
-  
   padding-bottom: 25px;
   padding-top: 25px;
   text-align: center;
 }
-
 
 .extra {
   padding-bottom: 40px;

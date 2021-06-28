@@ -1,9 +1,9 @@
-import Head from 'next/head';
-import Carousel from 'react-bootstrap/Carousel';
-import styles from '../styles/Home.module.css';
-import Layout from '../components/Layout';
-import Button from 'react-bootstrap/Button';
-import Image from 'react-bootstrap/Image';
+import Head from "next/head";
+import Carousel from "react-bootstrap/Carousel";
+import styles from "../styles/Home.module.css";
+import Layout from "../components/Layout";
+import Button from "react-bootstrap/Button";
+import Image from "react-bootstrap/Image";
 export default function Home() {
   return (
     <div>
@@ -42,9 +42,9 @@ export default function Home() {
               </Carousel.Caption>
             </Carousel.Item>
           </Carousel>
-          
-            <h1 className={styles.homeHeader}>For a service you can trust</h1>
-            <div className={styles.frontpageTextAlign}>
+
+          <h1 className={styles.homeHeader}>For a service you can trust</h1>
+          <div className={styles.frontpageTextAlign}>
             <p className={styles.homeInfo}>
               Count on us to bring the capacity and agility for any job, big or
               small. Our expert team is committed to the highest standards and
@@ -54,10 +54,10 @@ export default function Home() {
               Learn More
             </Button>
           </div>
-            <h1 className={styles.homeHeader}>Satisfaction guaranteed</h1>
-          
+          <h1 className={styles.homeHeader}>Satisfaction guaranteed</h1>
+
           <div className={styles.projectsSection}>
-            <div >
+            <div>
               <p className={styles.projectsInfo}>
                 Over the years, we have developed multiple projects for all
                 extremely satisfied clients. Take a look at our portfolio of
@@ -69,9 +69,9 @@ export default function Home() {
             </div>
             <Image src="/assets/homePage_1.jpg" className={styles.homeImage} />
           </div>
-            <h1 className={styles.homeHeader}>
-              Want an opinion? Contact us today
-            </h1>
+          <h1 className={styles.homeHeader}>
+            Want an opinion? Contact us today
+          </h1>
           <div className={styles.contactSection}>
             <div className={styles.contactSectionPictures}>
               <Image
@@ -86,12 +86,11 @@ export default function Home() {
                 src="/assets/homeContact_3.jpg"
                 className={styles.contactImage}
               />
-             
+
               <Image
                 src="/assets/homeContact_4.jpeg"
                 className={styles.contactImage}
               />
-              
             </div>
             <div className={styles.frontpageTextAlign}>
               <p className={styles.contactInfo}>

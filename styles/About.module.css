@@ -5,48 +5,46 @@
 }
 
 .aboutHeader {
-    padding-top: 60px;
-    padding-left: 38px;   
-   }
+  padding-top: 60px;
+  padding-left: 38px;
+}
 
 .aboutContainer {
   margin-left: 15%;
   margin-right: 15%;
 }
 .aboutInfo {
-    padding-top: 10px;
-    display: 'flex';
-    padding-left: 20px;   
-  }
+  padding-top: 10px;
+  display: "flex";
+  padding-left: 20px;
+}
 
 .ourServices {
-  
   padding-bottom: 25px;
   padding-top: 25px;
   text-align: center;
 }
 
-  .aboutImage {
-    width: 400px;
-    height: 300px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    object-fit: cover;
-  
-  }
- 
-  .row1 {
-    background-color: #DEF7EE;
-  }
-  .row2 {
-    background-color: #c3ebdb;
-  }
-  .row3 {
-    background-color: #DEF7EE;
-  }
-  .row4 {
-    background-color: #c3ebdb;
-  }
-  .extra {
-    padding-bottom: 50px;
-  }
+.aboutImage {
+  width: 400px;
+  height: 300px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  object-fit: cover;
+}
+
+.row1 {
+  background-color: #def7ee;
+}
+.row2 {
+  background-color: #c3ebdb;
+}
+.row3 {
+  background-color: #def7ee;
+}
+.row4 {
+  background-color: #c3ebdb;
+}
+.extra {
+  padding-bottom: 50px;
+}

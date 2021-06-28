@@ -1,24 +1,24 @@
-require('dotenv').config();
+require("dotenv").config();
 
 export default function (req, res) {
   const password = process.env.password;
 
-  let nodemailer = require('nodemailer');
+  let nodemailer = require("nodemailer");
   const transporter = nodemailer.createTransport({
     port: 465,
-    host: 'smtp.gmail.com',
+    host: "smtp.gmail.com",
     auth: {
-      user: 'allcustomsheetmetalmailbot@gmail.com',
+      user: "allcustomsheetmetalmailbot@gmail.com",
       pass: password,
     },
     secure: true,
   });
 
   const mailData = {
-    from: 'allcustomsheetmetalmailbot@gmail.com',
-    to: 'fluentinstroll@protonmail.com',
+    from: "allcustomsheetmetalmailbot@gmail.com",
+    to: "fluentinstroll@protonmail.com",
     subject: `Message From ${req.body.name}`,
-    text: req.body.message + ' | sent from: ' + req.body.email,
+    text: req.body.message + " | sent from: " + req.body.email,
     html: `<div>${req.body.message}</div><p>Sent from: ${req.body.email}</p>`,
   };
 
