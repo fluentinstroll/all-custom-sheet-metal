@@ -1,6 +1,6 @@
-.navBarText{
-    text-shadow: -1px 0 black, 0 1px black,  0 1px black,  0 -1px black;
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 25px;
-    color: white;
+.navBarText {
+  text-shadow: -1px 0 black, 0 1px black, 0 1px black, 0 -1px black;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 25px;
+  color: white;
 }

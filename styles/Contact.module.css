@@ -1,58 +1,57 @@
 .contactHeader {
- padding-top: 60px;
- padding-left: 20px;   
- margin-left: 33%;
+  padding-top: 60px;
+  padding-left: 20px;
+  margin-left: 33%;
 }
 
-   .inputGroupName {
-    height: 50%;
-    width: 20%;
-    display: flex;
-    flex-direction: column;
-    margin: 10px 0;
-  }
+.inputGroupName {
+  height: 50%;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+}
 
-  .inputGroupEmail {
-    height: 50%;
-    width: 20%;
-    display: flex;
-    flex-direction: column;
-    margin: 10px 0;
-  }
+.inputGroupEmail {
+  height: 50%;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+}
 
-  .columnContact {
-    float: left;
-    width: 33.33%;
-  }
+.columnContact {
+  float: left;
+  width: 33.33%;
+}
 
-  .inputGroupMessage {
-    height: 50%;
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    margin: 10px 0;
-    
-  }
+.inputGroupMessage {
+  height: 50%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+}
 
-  .contactButton {
-    background: #153243;
-    border-color: #153243;
-  }
+.contactButton {
+  background: #153243;
+  border-color: #153243;
+}
 
-  .contactButton:hover {
-    background-color: #13bd8d;
-    border-color: #13bd8d; 
-  }
+.contactButton:hover {
+  background-color: #13bd8d;
+  border-color: #13bd8d;
+}
 
-  .inputLabel {
-    text-align: left;
-  }
-  .inputField {
-    height: 30px;
-  }
-  .extra {
-    padding-bottom: 100px;
-  }
-  .extra2 {
-    padding-bottom: 300px;
-  }
+.inputLabel {
+  text-align: left;
+}
+.inputField {
+  height: 30px;
+}
+.extra {
+  padding-bottom: 100px;
+}
+.extra2 {
+  padding-bottom: 300px;
+}

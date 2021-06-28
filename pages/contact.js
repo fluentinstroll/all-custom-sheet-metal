@@ -1,42 +1,42 @@
-import Layout from '../components/Layout';
-import styles from '../styles/Contact.module.css';
-import { useState } from 'react';
-import Image from 'react-bootstrap/Image';
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-import Form from 'react-bootstrap/Form';
-import Button from 'react-bootstrap/Button';
+import Layout from "../components/Layout";
+import styles from "../styles/Contact.module.css";
+import { useState } from "react";
+import Image from "react-bootstrap/Image";
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+import Form from "react-bootstrap/Form";
+import Button from "react-bootstrap/Button";
 
 export default function Contact() {
-  const [name, setName] = useState('');
-  const [email, setEmail] = useState('');
-  const [message, setMessage] = useState('');
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
   const [submitted, setSubmitted] = useState(false);
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log('Sending');
+    console.log("Sending");
     let data = {
       name,
       email,
       message,
     };
-    fetch('/api/contact', {
-      method: 'POST',
+    fetch("/api/contact", {
+      method: "POST",
       headers: {
-        Accept: 'application/json, text/plain, */*',
-        'Content-Type': 'application/json',
+        Accept: "application/json, text/plain, */*",
+        "Content-Type": "application/json",
       },
       body: JSON.stringify(data),
     }).then((res) => {
-      console.log('Response received');
+      console.log("Response received");
       if (res.status === 200) {
-        console.log('Response succeeded!');
+        console.log("Response succeeded!");
         setSubmitted(true);
-        setName('');
-        setEmail('');
-        setMessage('');
+        setName("");
+        setEmail("");
+        setMessage("");
       }
     });
   };
