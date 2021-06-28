@@ -5,6 +5,8 @@ import Image from 'react-bootstrap/Image';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Form from 'react-bootstrap/Form';
+import Button from 'react-bootstrap/Button';
 
 export default function Contact() {
   const [name, setName] = useState('');
@@ -41,44 +43,36 @@ export default function Contact() {
 
   return (
     <Layout>
- <Container fluid>
- <div className={styles.extra}></div>
- <Row className={styles.row1}>
-            <Col className={styles.col1}>
-              <h3>Area of Service</h3>
-              <p>
-               We offer our services accros the GTA. Reach out to us today
-              </p>
-            </Col>
-            
-            <Col className={styles.col2}>
-              <h3>Contact Information</h3>
-              <p>
-                Email: sales@allcustomsheetmetal.com
-              </p>
-              <p>
-                Phone: 289 231 9178 
-              </p>
-            </Col>
-           
-            <Col className={styles.col3}>
-              <h3>Send us an Email</h3>
-              <p>
-                Fill out the form below to send us an email
-              </p>
-              <p>
-              Enter your email, name and a brief description of the inquiry or question. We will get back to you as soon as possible.  
-              </p>
-            </Col>
-          </Row>
-          <hr></hr>
+      <Container fluid>
+        <div className={styles.extra}></div>
+        <Row className={styles.row1}>
+          <Col className={styles.col1}>
+            <h3>Area of Service</h3>
+            <p>We offer our services accros the GTA. Reach out to us today</p>
+          </Col>
 
-</Container>
+          <Col className={styles.col2}>
+            <h3>Contact Information</h3>
+            <p>Email: sales@allcustomsheetmetal.com</p>
+            <p>Phone: 289 231 9178</p>
+          </Col>
+
+          <Col className={styles.col3}>
+            <h3>Send us an Email</h3>
+            <p>Fill out the form below to send us an email</p>
+            <p>
+              Enter your email, name and a brief description of the inquiry or
+              question. We will get back to you as soon as possible.
+            </p>
+          </Col>
+        </Row>
+        <hr></hr>
+      </Container>
       <div className={styles.contactHeader}>
-        <form>
-          <formGroup className={styles.inputGroupName}>
+        <Form>
+          <Form.Group className={styles.inputGroupName}>
             <label htmlFor="name">Name</label>
-            <input
+            <Form.Control
               type="text"
               onChange={(e) => {
                 setName(e.target.value);
@@ -86,10 +80,10 @@ export default function Contact() {
               name="name"
               className={styles.inputField}
             />
-          </formGroup>
-          <formGroup className={styles.inputGroupEmail}>
+          </Form.Group>
+          <Form.Group className={styles.inputGroupEmail}>
             <label htmlFor="email">Email</label>
-            <input
+            <Form.Control
               type="email"
               onChange={(e) => {
                 setEmail(e.target.value);
@@ -97,29 +91,32 @@ export default function Contact() {
               name="email"
               className={styles.inputField}
             />
-          </formGroup>
-          <formGroup className={styles.inputGroupMessage}>
+          </Form.Group>
+          <Form.Group className={styles.inputGroupMessage}>
             <label htmlFor="message">Message</label>
-            <textarea
+            <Form.Control
+              as="textarea"
+              rows={6}
               type="text"
-              
               onChange={(e) => {
                 setMessage(e.target.value);
               }}
               name="message"
               className={styles.inputField}
             />
-          </formGroup>
-          <input
+          </Form.Group>
+          <Button
+            className={styles.contactButton}
             type="submit"
             onClick={(e) => {
               handleSubmit(e);
             }}
-          />
-        </form>
+          >
+            Submit
+          </Button>
+        </Form>
       </div>
       <div className={styles.extra2}></div>
     </Layout>
-    
   );
 }

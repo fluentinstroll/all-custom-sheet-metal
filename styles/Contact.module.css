@@ -2,7 +2,6 @@
  padding-top: 60px;
  padding-left: 20px;   
  margin-left: 33%;
-  margin-right: 33%;
 }
 
    .inputGroupName {
@@ -35,16 +34,15 @@
     
   }
 
-  .col1 {
-    
-  }
-  .col2 {
-    
-  }
-  .col3 {
-    
+  .contactButton {
+    background: #153243;
+    border-color: #153243;
   }
 
+  .contactButton:hover {
+    background-color: #13bd8d;
+    border-color: #13bd8d; 
+  }
 
   .inputLabel {
     text-align: left;
