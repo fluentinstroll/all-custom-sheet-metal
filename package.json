@@ -1,11 +1,12 @@
 {
   "name": "learn-starter",
+  "homepage": "http://allcustomsheetmetal.com/",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
-    "start": "next start -p $PORT"
+    "build": "next build && next export",
+    "start": "next start -p 8080"
   },
   "dependencies": {
     "bootstrap": "^4.6.0",

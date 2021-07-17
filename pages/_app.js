@@ -2,7 +2,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../styles/globals.css";
 
-
+/*
 const http = require('http');
 
 const hostname = '5.183.11.44';
@@ -14,7 +14,7 @@ const server = http.createServer((req, res) => {
 server.listen(port, hostname, () => {
   console.log(`Server running at http://${hostname}:${port}/`);
 });
-
+*/
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />;
 }
